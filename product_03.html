@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寶可夢圖鑑 | Pokemon</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/color_box_.css">
+    <script src="https://kit.fontawesome.com/4474a9830c.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .bg-gray>.container>ol {
+            margin-right: 80%;
+        }
+
+        header {
+            box-shadow: 0 0 0 white;
+        }
+
+        .header-left img {
+            max-width: 100%;
+            padding: 1px;
+            justify-content: flex-start;
+        }
+
+        .tag {
+            right: 0px;
+            top: 0px;
+            background-color: red;
+            color: white;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1170px;
+            margin: auto;
+        }
+
+        body {
+            width: 100%;
+            background-image: url(img/main_bg_v15.jpg);
+            background-attachment: fixed;
+        }
+
+        h2 {
+            padding-left: 3%;
+            color: white;
+            font-size: 40px;
+        }
+
+        .w-100 {
+            width: 100%;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+        .product {
+            width: 25%;
+            padding: 30px;
+        }
+
+        .outermost-container::after,
+        .container::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .card {
+            display: flex;
+            clear: both;
+        }
+
+        .footer-logo img {
+            width: 120%;
+            margin: auto;
+            padding-top: 30px;
+        }
+
+        .container-left {
+            margin-top: 30px;
+        }
+
+        .w_100box {
+            width: 80%;
+        }
+
+        .product {
+            position: relative;
+        }
+
+        .overlay-content {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            background-attachment: fixed;
+        }
+
+        .number {
+            content: "";
+            margin-top: 15%;
+            color: #b3eafe;
+            margin-right: 48px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .img-name {
+            content: "";
+            color: white;
+            margin-right: 48px;
+            text-align: center;
+            font-size: 20px;
+            margin-top: 0;
+        }
+
+        .bottom_all {
+            display: flex;
+            clear: both;
+            margin-right: 46px;
+            justify-content: space-around;
+            margin-top: 25px;
+        }
+
+        .bottom_box,.bottom_box2 {
+            color: white;
+            border: 2px;
+            width: 50%;
+            text-align: center;
+        }
+        .bottom_box{
+            margin-right: 5px;
+        }
+        .bottom_box2{
+            margin-left: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header-container">
+            <div class="header-left">
+                <div>
+                    <a href="index_01.html">
+                        <img src="img/logo.png" alt="Pokemon" class="logo-box2" title="Pokemon">
+                    </a>
+                </div>
+            </div>
+
+            <!-- header middle start -->
+
+            <nav class="header-middle">
+                <ul>
+                    <li><a href="#">電視動畫</a></li>
+                    <li><a href="product_03.html">圖鑑資訊</a></li>
+                    <li><a href="store_04.html">門市資訊</a></li>
+                    <li><a href="about_02.html">品牌資訊</a></li>
+                    <li><a href="#">遊戲資訊</a></li>
+                    <li><a href="#">活動資訊</a></li>
+                    <li><a href="#">卡牌遊戲</a></li>
+                    <li><a href="phone_05.html">聯絡我們</a></li>
+                </ul>
+            </nav>
+
+
+
+
+            <!-- header middle end -->
+
+            <div class="right-container">
+                <div class="header-right">
+                    <div>
+                        <a href="#">
+                            <img src="img/file7.png" alt="cama-coffee">
+                        </a>
+                        <a href="#">
+                            <img src="img/FB.png" alt="facebook">
+                        </a>
+                        <a href="#">
+                            <img src="img/int.png" alt="instagram">
+                        </a>
+                        <a href="#">
+                            <img src="img/icon-cart.png" alt="icon-cart">
+                        </a>
+                        <a href="#">
+                            <img src="img/icon-login.png" alt="login">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="bg-gray">
+        <div class="container">
+            <ol>
+                <li>
+                    <a href="index_01.html">
+                        首頁
+                    </a>
+                </li>
+                <li>寶可夢圖鑑</li>
+            </ol>
+        </div>
+    </div>
+
+
+    <div class="container bg_imgbox">
+        <div class="container-left">
+            <h2>寶可夢圖鑑</h2>
+        </div>
+        <div class="float-left product">
+            <img src="img/style_pokemon_bg.png" alt="" class="w-100">
+            <div class="overlay-content">
+                <img src="img/mm.png" alt="" class="w_100box">
+                <p class="number">0001</p>
+                <p class="img-name">烏波</p>
+                <div class="bottom_all">
+                    <div class="bottom_box water_box">
+                        <span>水</span>
+                    </div>
+                    <div class="bottom_box2 brown_box">
+                        <span>地面</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-left product">
+            <img src="img/style_pokemon_bg.png" alt="" class="w-100">
+            <div class="overlay-content">
+                <img src="img/mma.png" alt="" class="w_100box">
+                <p class="number">0002</p>
+                <p class="img-name">妙蛙草</p>
+                <div class="bottom_all">
+                    <div class="bottom_box green_box">
+                        <span>草</span>
+                    </div>
+                    <div class="bottom_box2 purple_box">
+                        <span>毒</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-left product">
+            <img src="img/style_pokemon_bg.png" alt="" class="w-100">
+            <div class="overlay-content">
+                <img src="img/mmb.png" alt="" class="w_100box">
+                <p class="number">0003</p>
+                <p class="img-name">土王</p>
+                <div class="bottom_all">
+                    <div class="bottom_box purple_box">
+                        <span>毒</span>
+                    </div>
+                    <div class="bottom_box2 brown_box">
+                        <span>地面</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-left product">
+            <img src="img/style_pokemon_bg.png" alt="" class="w-100">
+            <div class="overlay-content">
+                <img src="img/mmc.png" alt="" class="w_100box">
+                <p class="number">0004</p>
+                <p class="img-name">沼王</p>
+                <div class="bottom_all">
+                    <div class="bottom_box water_box">
+                        <span>水</span>
+                    </div>
+                    <div class="bottom_box2 brown_box">
+                        <span>地面</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-left product">
+            <img src="img/style_pokemon_bg.png" alt="" class="w-100">
+            <div class="overlay-content">
+                <img src="img/mmd.png" alt="" class="w_100box">
+                <p class="number">0005</p>
+                <p class="img-name">可達鴨</p>
+                <div class="bottom_all">
+                    <div class="bottom_box water_box">
+                        <span>水</span>
+                    </div>
+                    <div class="bottom_box2">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-left product">
+            <img src="img/style_pokemon_bg.png" alt="" class="w-100">
+            <div class="overlay-content">
+                <img src="img/water.png" alt="" class="w_100box">
+                <p class="number">0006</p>
+                <p class="img-name">傑尼龜</p>
+                <div class="bottom_all">
+                    <div class="bottom_box water_box">
+                        <span>水</span>
+                    </div>
+                    <div class="bottom_box2">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-left product">
+            <img src="img/style_pokemon_bg.png" alt="" class="w-100">
+            <div class="overlay-content">
+                <img src="img/watera.png" alt="" class="w_100box">
+                <p class="number">0007</p>
+                <p class="img-name">卡比獸</p>
+                <div class="bottom_all">
+                    <div class="bottom_box gray_box">
+                        <span>一般</span>
+                    </div>
+                    <div class="bottom_box2">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-left product">
+            <img src="img/style_pokemon_bg.png" alt="" class="w-100">
+            <div class="overlay-content">
+                <img src="img/waterb.png" alt="" class="w_100box">
+                <p class="number">0008</p>
+                <p class="img-name">百變怪</p>
+                <div class="bottom_all">
+                    <div class="bottom_box gray_box">
+                        <span>一般</span>
+                    </div>
+                    <div class="bottom_box2">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-left product">
+            <img src="img/style_pokemon_bg.png" alt="" class="w-100">
+            <div class="overlay-content">
+                <img src="img/waterc.png" alt="" class="w_100box">
+                <p class="number">0009</p>
+                <p class="img-name">大舌頭</p>
+                <div class="bottom_all">
+                    <div class="bottom_box gray_box">
+                        <span>一般</span>
+                    </div>
+                    <div class="bottom_box2">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-left product">
+            <img src="img/style_pokemon_bg.png" alt="" class="w-100">
+            <div class="overlay-content">
+                <img src="img/waterd.png" alt="" class="w_100box">
+                <p class="number">0010</p>
+                <p class="img-name">呆呆獸</p>
+                <div class="bottom_all">
+                    <div class="bottom_box water_box">
+                        <span>水</span>
+                    </div>
+                    <div class="bottom_box2 purple_red_box">
+                        <span>超能力</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-left product">
+            <img src="img/style_pokemon_bg.png" alt="" class="w-100">
+            <div class="overlay-content">
+                <img src="img/fire.png" alt="" class="w_100box">
+                <p class="number">0011</p>
+                <p class="img-name">小火龍</p>
+                <div class="bottom_all">
+                    <div class="bottom_box red_box">
+                        <span>火</span>
+                    </div>
+                    <div class="bottom_box2">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-left product">
+            <img src="img/style_pokemon_bg.png" alt="" class="w-100">
+            <div class="overlay-content">
+                <img src="img/firea.png" alt="" class="w_100box">
+                <p class="number">0012</p>
+                <p class="img-name">胖丁</p>
+                <div class="bottom_all">
+                    <div class="bottom_box gray_box">
+                        <span>一般</span>
+                    </div>
+                    <div class="bottom_box2 pink_box">
+                        <span>妖精</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-left product">
+            <img src="img/style_pokemon_bg.png" alt="" class="w-100">
+            <div class="overlay-content">
+                <img src="img/fireb.png" alt="" class="w_100box">
+                <p class="number">0013</p>
+                <p class="img-name">小火馬</p>
+                <div class="bottom_all">
+                    <div class="bottom_box red_box">
+                        <span>火</span>
+                    </div>
+                    <div class="bottom_box2">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-left product">
+            <img src="img/style_pokemon_bg.png" alt="" class="w-100">
+            <div class="overlay-content">
+                <img src="img/firec.png" alt="" class="w_100box">
+                <p class="number">0014</p>
+                <p class="img-name">鯉魚王</p>
+                <div class="bottom_all">
+                    <div class="bottom_box water_box">
+                        <span>水</span>
+                    </div>
+                    <div class="bottom_box2">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-left product">
+            <img src="img/style_pokemon_bg.png" alt="" class="w-100">
+            <div class="overlay-content">
+                <img src="img/fired.png" alt="" class="w_100box">
+                <p class="number">0015</p>
+                <p class="img-name">伊布</p>
+                <div class="bottom_all">
+                    <div class="bottom_box gray_box">
+                        <span>一般</span>
+                    </div>
+                    <div class="bottom_box2">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-container"> <!--頁尾第一層-->
+
+            <div class="footer-logo"> <!--第一層(左)-->
+                <img src="img/logo.png" alt="Cama" title="Cama">
+            </div>
+
+            <div class="footer-content"> <!--第一層(右)-->
+                <ul class="footer-desc"> <!--商店聯絡方法(右1)-->
+                    <li>©Pokémon. ©Nintendo/Creatures Inc./GAME FREAK inc.</li>
+                    <li><i class="fa-regular fa-envelope"></i>你可以使用精靈球收服的神祕生物;寶可夢</li>
+                    <li><i class="fa-regular fa-envelope"></i>已經有超過1000種的寶可夢被證實存在</li>
+                    <li><i class="fa-regular fa-envelope"></i>但還有未知的寶可夢肯定在不久的未來會被找到。</li>
+                </ul>
+                <ul class="footer-link-g1"> <!--連結(右2)-->
+                    <li>&nbsp;</li> <!--留白-->
+                    <li><a href="#">隱私權政策</a></li>
+                    <li><a href="#">常見問題</a></li>
+                    <li><a href="#">加盟資訊</a></li>
+                </ul>
+                <ul class="footer-link-g2"> <!--連結(右3)-->
+                    <li>&nbsp;</li> <!--留白-->
+                    <li><a href="#">企業採購</a></li>
+                    <li><a href="#">加入我們</a></li>
+                    <li><a href="#">門市查詢</a></li>
+                </ul>
+                <ul class="footer-link-g3"> <!--連結(右4)-->
+                    <li>&nbsp;</li> <!--留白-->
+                    <li><a href="#"></a>談咖啡</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-declaimer"> <!--頁尾第二層-->
+            <div class="footer-declaimer-content">
+                <div class="footer-copyright">
+                    <p>&#220;版權所有&#32;.&#32;All rights reserved&#32;.&#32;&#1085;&#349;&#252;&#227;&#324;</p>
+                </div>
+                <div class="footer-social">
+                    <a class="social-facebook" href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a class="social-line" href="#"><i class="fa-brands fa-line"></i></a>
+                    <a class="social-instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

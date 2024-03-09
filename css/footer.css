@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    list-style: none; /*去除ul預設格式*/
+    height: auto;
+}
+.footer ul li{
+    height: 35px;
+}
+.body{
+    width:90%; /*整頁的闊度*/
+}
+footer{
+    background-color: rgb(212, 212, 212);
+    margin-top: 2%;
+    display: block;
+    width:100%;
+    font-size:14px;
+    position: relative;
+}
+footer .footer-container{
+    display:flex;
+    width:1170px;
+    margin:auto;
+}
+.footer-logo{
+    width:160px;
+    margin-right:20px;
+}
+.footer-logo img{
+    max-width: 120%;
+}
+
+
+.footer-content{
+    display:flex;
+    width:80%;
+}
+.footer-content li{
+    margin-bottom: 10px;
+}
+i{
+    margin-right:5%;
+}
+.footer-desc{
+    width:60%;
+    margin-left: 30px;
+}
+.fa-location-dot, .fa-phone, .fa-envelope{
+    color: rgb(222, 172, 63);
+}
+.footer-link-g1, .footer-link-g2, .footer-link-g3 {
+    width:13.3%;
+}
+.footer-link-g1 a, .footer-link-g2 a, .footer-link-g3 a{
+    color:#000;
+}
+.footer-declaimer, .footer-declaimer{
+    width:1170px;
+    margin:auto;
+    height:50px;
+    color:grey;
+}
+.footer-declaimer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-copyright{
+    width:80%;
+}
+.footer-social{
+    width:15%;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+}
+.footer-social a{
+    color:grey;
+}
+.fa-brands{
+    margin-left:15px;
+    margin-right:15px;
+}
+.social-facebook:hover{
+    color:#337ab7;
+}
+.fa-line{
+    font-size:26px;
+}
+.social-line:hover{
+    color:#01b901;
+}
+.social-instagram:hover{
+    color:#FFDC80;
+}

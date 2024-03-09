@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聯絡我們 | Cama 現烘咖啡專門店</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/middle.css">
+    <script src="https://kit.fontawesome.com/4474a9830c.js" crossorigin="anonymous"></script>
+    <style>
+        .outermost-container h2::after{
+            content: "";
+            display: table;
+            clear: both;
+            width: 80%;
+            margin: auto;
+        }
+        h2{
+            width: 80%;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+        .bg-gray>.container>ol{
+            margin-right: 80%;
+        }
+        
+        .outermost-container .bg-gray{
+            margin-left: 0;
+        }
+        .form-container{
+            width: 90%;
+            margin: auto;
+            list-style: none;
+        }
+        input[type="text"],input[type="email"],textarea,select{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid lightgray;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+        input[type="submit"]{
+            background-color: orange;
+            border: none;
+            padding: 5px;
+            width: 200px;
+            border-radius: 20px;
+            color: white;
+            cursor: pointer;
+            float: right;
+            clear: both;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        input[type="submit"]:hover{
+            background-color: rgb(220,143,0);
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <header>
+
+        <div class="header-container">
+            <div class="header-left">
+                <div>
+                    <a href="index_01.html">
+                        <img src="img/cama.png" alt="Cama" class="logo-box" title="Cama">
+                    </a>
+                </div>
+            </div>
+
+            <!-- header middle start -->
+            
+            <nav class="header-middle">
+                <ul>
+                    <li><a href="#">咖啡餐食</a></li>
+                    <li><a href="product_03.html">線上購物</a></li>
+                    <li><a href="store_04.html">門市資訊</a></li>
+                    <li><a href="about_02.html">品牌資訊</a></li>
+                    <li><a href="#">最新消息</a></li>
+                    <li><a href="#">加盟專區</a></li>
+                    <li><a href="phone_05.html">聯絡我們</a></li>
+                    <li><a href="#">投資人專區</a></li>
+                </ul>
+            </nav>
+
+
+
+
+            <!-- header middle end -->
+            
+            <div class="right-container">
+                <div class="header-right">
+                    <div>
+                        <a href="https://camacoffeeroasters.com/">
+                            <img src="img/file7.png" alt="cama-coffee" class="hidden">
+                        </a>
+                        <a href="https://www.facebook.com/camacafe">
+                            <img src="img/FB.png" alt="facebook" class="hidden">
+                        </a>
+                        <a href="https://www.instagram.com/camacafe_tw/">
+                            <img src="img/int.png" alt="instagram" class="hidden">
+                        </a>
+                        <a href="#">
+                            <img src="img/icon-cart.png" alt="icon-cart" class="hidden">
+                        </a>
+                        
+                        <a class="icon-login" href="https://www.camacafe.com/login?/checkout/detail/">
+                            <img src="img/icon-login.png" alt="login">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    
+    <div class="bg-gray">
+        <div class="container">
+            <ol>
+                <li>
+                    <a href="index_01.html">
+                        首頁
+                    </a>
+                </li>
+                <li>聯絡我們</li>
+            </ol>
+        </div>
+    </div>
+
+
+    <div class="outermost-container">
+        <div class="container">
+            <h2>聯絡我們</h2>
+            <form class="form-container" action="">
+                <label for="user">姓名</label>
+                <input type="text" id="user" name="user" placeholder="請輸入姓名">
+                <br>
+                <label for="">電話</label>
+                <input type="text" id="phone" name="phone" placeholder="請輸入電話">
+                <br>
+                <label for="address">地址</label>
+                <input type="text" id="address" name="address" placeholder="請輸入地址">
+                <br>
+                <label for="email">電子郵件</label>
+                <input type="text" id="email" name="email" placeholder="請輸入電子郵件">
+                <br>
+                <label for="target">聯絡目的</label>
+                <select name="target" id="target">
+                    <option>會員帳密問題</option>
+                    <option>退換貨問題</option>
+                    <option>運費問題</option>
+                </select>
+                <br>
+                <label for="interests">性別</label>
+                <!-- 男 -->
+                <input type="radio" name="gender" id="male">
+                <label for="male">先生</label>
+                <!-- 女 -->
+                <input type="radio" name="gender" id="female">
+                <label for="female">女士</label>
+                <li>&nbsp;</li>
+                <label for="interests">興趣</label>
+                <input type="checkbox" name="interests[]" id="programming" value="程式">
+                <label for="programming">程式</label>
+                <input type="checkbox" name="interests[]" id="gaming" value="遊戲">
+                <label for="gaming">遊戲</label>
+                <input type="checkbox" name="interests[]" id="reading" value="閱讀">
+                <label for="reading">閱讀</label>
+                <li>&nbsp;</li>
+                <label for="message" class="na-content">內容</label>
+                <textarea type="text" id="message" name="message" cols="30" rows="10"></textarea>
+                <br>
+                <input type="submit" value="送出表單">
+                
+            </form>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57847.00255761603!2d121.48778790170628!3d25.019217273183855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34680d41ba6efeb9%3A0x935ee26edeb7a7d6!2zY2FtYSBjYWbDqSDlj7DljJfmlabljZflupc!5e0!3m2!1szh-TW!2stw!4v1708706183979!5m2!1szh-TW!2stw" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        
+    </div>
+    <footer>
+        <div class="footer-container"> <!--頁尾第一層-->
+            
+            <div class="footer-logo"> <!--第一層(左)-->
+                <img src="img/footer-cama.png" alt="Cama" title="Cama">
+            </div>
+            
+            <div class="footer-content"> <!--第一層(右)-->
+                <ul class="footer-desc"> <!--商店聯絡方法(右1)-->
+                    <li>咖碼股份有限公司 統一編號:53353122</li>
+                    <li><i class="fa-solid fa-location-dot"></i>台北市大安區安和路一段 27 號 18 樓</li>
+                    <li><i class="fa-solid fa-phone"></i>0800-068-566 ( 週一 ~ 週五 09:00~18:00,六日與國定假日除外 )</li>
+                    <li><i class="fa-regular fa-envelope"></i>service@camacafe.com</li>
+                </ul>
+                <ul class="footer-link-g1"> <!--連結(右2)-->
+                    <li>&nbsp;</li> <!--留白-->
+                    <li><a href="#">隱私權政策</a></li>
+                    <li><a href="#">常見問題</a></li>
+                    <li><a href="#">加盟資訊</a></li>
+                </ul>
+                <ul class="footer-link-g2"> <!--連結(右3)-->
+                    <li>&nbsp;</li> <!--留白-->
+                    <li><a href="#">企業採購</a></li>
+                    <li><a href="#">加入我們</a></li>
+                    <li><a href="#">門市查詢</a></li>
+                </ul>
+                <ul class="footer-link-g3"> <!--連結(右4)-->
+                    <li>&nbsp;</li> <!--留白-->
+                    <li><a href="#"></a>談咖啡</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-declaimer"> <!--頁尾第二層-->
+            <div class="footer-declaimer-content">
+                <div class="footer-copyright">
+                    <p>&#220;版權所有&#32;.&#32;All rights reserved&#32;.&#32;&#1085;&#349;&#252;&#227;&#324;</p>
+                </div>
+                <div class="footer-social">
+                    <a class="social-facebook" href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a class="social-line" href="#"><i class="fa-brands fa-line"></i></a>
+                    <a class="social-instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
